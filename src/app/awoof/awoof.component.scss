@@ -1,0 +1,141 @@
+.arena{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(../../assets/awoof/bg-dark.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.awoofBox{
+    position: relative;
+    width: 80vw;
+    height: 200vw;
+    top: 0;
+    left: 10vw;
+}
+.awoofBase{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+}
+.clickOverlay{
+    width: 80vw;
+    height: 160vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+}
+.click1{
+    width: 80%;
+    left: 10%;
+    height: 11vh;
+    position: absolute;
+    top: 29vh
+}
+.click2{
+    width: 80%;
+    left: 10%;
+    height: 11vh;
+    position: absolute;
+    top: 43vh
+}
+.click3{
+    width: 80%;
+    left: 10%;
+    height: 11vh;
+    position: absolute;
+    top: 57vh
+}
+.click4{
+    width: 80%;
+    left: 10%;
+    height: 11vh;
+    position: absolute;
+    top: 71vh
+}
+.click5{
+    width: 80%;
+    left: 10%;
+    height: 11vh;
+    position: absolute;
+    top: 84vh
+}
+.backParent{
+    width: 10vw;
+    height: 10vw;
+    position: fixed;
+    top: 5vw;
+    left: 5vw;
+    z-index: 6000;
+}
+.back{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.toast{
+    position: absolute;
+    left: 2vw;
+    z-index: 20000;
+    bottom: 40vh;
+    width: 96vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    display: none;
+    border-style:solid;
+    border-color:whitesmoke;
+    border-radius: 15px;
+    border-width: 5px;
+  }
+
+  .toast p{
+    margin: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+  }
+
+  .padiPane{
+    position: absolute;
+    z-index: 3500;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+  }
+
+  .padiBox{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80vw;
+    height: 150vw;
+    // background-color: red;
+  }
+
+  .padiContent{
+    position: absolute;
+    display: block;
+    width: 90%;
+    left: 5%;
+    z-index: 3510;
+    height: 65%;
+    bottom: 5%;
+    // background-color: rgba(172, 255, 47, 0.418);
+    padding: 5%;
+    text-align: center;
+  }

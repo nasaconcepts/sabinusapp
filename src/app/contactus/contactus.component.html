@@ -1,0 +1,41 @@
+<div class="arena">
+  <a (click)="back()" class="backParent">
+    <img src="../../assets/awoof/back.png" alt="" class="back">
+  </a>
+
+  <div class="inner">
+
+  <div style="height: 5vh;"></div>
+
+    <br/><br/><br/>
+    <div class="ayoTray fadeIn fadeTwo">
+<br/>
+      <div style="text-align: center; color:#5f1721; font-weight: bold; font-family: 'VagFont', Fallback, sans-serif !important;">
+        WE GO LIKE TO HEAR FROM YOU<br/><br/><br/>
+      </div>
+      <div style="font-family: 'VagFont', Fallback, sans-serif !important; color:#301721">
+        Message Subject:<span style="color: red;">*</span><br/>
+        <input type="text" id="title" maxlength="30" placeholder="Enter subject" style="width: 200px; background-color: #ffffff;" />
+      </div>
+      
+      <div style="font-family: 'VagFont', Fallback, sans-serif !important; color:#301721">
+        <br/>Message Body:<span style="color: red;">*</span><br/>
+        <textarea type="text" id="message" maxlength="130" rows="4" placeholder="Type message here:" style="width: 200px; background-color: #ffffff;"></textarea>
+      </div>
+      <br/><br/><br/>
+      <div style="font-family: 'VagFont', Fallback, sans-serif !important; width: 100%;">
+        <input type="button" (click)="sendMessage()" style="width: 200px; background-color: #5f1721; color: #ffffff;" class="alert bg-primary" value="SEND" />
+      </div>
+    </div>
+
+  </div>
+  <!-- end of inner -->
+
+</div>
+
+<!-- end of arena -->
+
+<!-- toast -->
+<div class="toast">
+  <p>{{toastMessage}}</p>
+</div>
